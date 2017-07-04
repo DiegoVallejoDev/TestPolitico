@@ -1,5 +1,2 @@
-# TestPolitico
-Spanish Translation of 8valuestest
-
-Original English Version:
-https://github.com/8values/8values.github.io
+# 8values.github.io
+The 8values Political Quiz measures individuals' political values, including Equality, Might, Liberty, Tradition, Wealth, Peace, Authority, and Progress.
