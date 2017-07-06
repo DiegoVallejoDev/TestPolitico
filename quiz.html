@@ -1,33 +1,38 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
 <link href='style.css' rel='stylesheet' type='text/css'>
-<title>8values Quiz</title>
+<title>Test Politico</title>
 <link rel="icon" type="x-icon" href="icon.png">
 <link rel="shortcut icon" type="x-icon" href="icon.png">
 <meta charset="utf-8">
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-6511426299019766",
-    enable_page_level_ads: true
-  });
-</script>
 </head>
 <body>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ads -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3130631080979306"
+     data-ad-slot="1075962475"
+     data-ad-format="auto"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <script type="application/javascript"
         src="questions.js">
 </script>
-<h1>8values</h1>
+<h1>Test Politico</h1>
 <hr>
-<h2 style="text-align:center;" id="question-number">Loading...</h2>
+<h2 style="text-align:center;" id="question-number">Cargando...</h2>
 <p class="question" id="question-text"></p>
-<button class="button" onclick="next_question( 1.0)" style="background-color: #1b5e20;">Strongly Agree</button> <br>
-<button class="button" onclick="next_question( 0.5)" style="background-color: #4caf50;">Agree</button> <br>
-<button class="button" onclick="next_question( 0.0)" style="background-color: #bbbbbb;">Neutral/Unsure</button> <br>
-<button class="button" onclick="next_question(-0.5)" style="background-color: #f44336;">Disagree</button> <br>
-<button class="button" onclick="next_question(-1.0)" style="background-color: #b71c1c;">Strongly Disagree</button> <br>
-<button class="small_button" onclick="prev_question()" id="back_button">Back</button>
-<button class="small_button_off" id="back_button_off">Back</button><br>
+<button class="button" onclick="next_question( 1.0)" style="background-color: #1b5e20;">Totalmente de acuerdo</button> <br>
+<button class="button" onclick="next_question( 0.5)" style="background-color: #4caf50;">de auerdo</button> <br>
+<button class="button" onclick="next_question( 0.0)" style="background-color: #bbbbbb;">Neutral/Inseguro</button> <br>
+<button class="button" onclick="next_question(-0.5)" style="background-color: #f44336;">En Desacuerdo</button> <br>
+<button class="button" onclick="next_question(-1.0)" style="background-color: #b71c1c;">Totalmente en Desacuerdo</button> <br>
+<button class="small_button" onclick="prev_question()" id="back_button">Volver</button>
+<button class="small_button_off" id="back_button_off">Volver</button><br>
 
 <!-- Website visit statistics - no personal information is collected! -->
 <script type="text/javascript">
@@ -62,7 +67,7 @@ stats"></a></div></noscript>
     }
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
-        document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " of " + (questions.length);
+        document.getElementById("question-number").innerHTML = "Pregunta " + (qn + 1) + " de " + (questions.length);
         if (prev_answer == null) {
             document.getElementById("back_button").style.display = 'none';
             document.getElementById("back_button_off").style.display = 'block';

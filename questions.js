@@ -27,7 +27,7 @@ questions = [
         }
     },
     {
-        "question": "Es mejor mantener un presupuesto equilibrado que para garantizar el bienestar de todos los ciudadanos.",
+        "question": "Es mejor mantener un presupuesto equilibrado para garantizar el bienestar de todos los ciudadanos.",
         "effect": {
             "econ": -10,
             "dipl": 0,
